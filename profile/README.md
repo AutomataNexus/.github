@@ -64,9 +64,6 @@ A single Rust binary that speaks **SQL, Document, Graph, Key-Value, Time-Series,
 
 22 crates, **226K+ lines of Rust**, ~92-95% PyTorch parity with several novel features that go *beyond* PyTorch. Trains on CUDA with 15 custom PTX kernel modules. 9 LLM architectures (GPT-2, LLaMA, Mistral, Phi, BERT, SSM/Mamba, Hydra, Trident, Chimera). 41 NN layer types. 6 quantization formats including 1.58-bit ternary. Distributed training (DDP, FSDP, pipeline parallelism). ONNX import/export with 39 operators.
 
-- **nexus-serve** -- Pure-Rust LLM inference server. 9 architectures, CUDA GPU + Hailo NPU backends, OpenAI + Anthropic-compatible APIs, streaming, tool calling.
-- **NexusFoundry** [![NexusFoundry](https://img.shields.io/badge/NexusFoundry-silicon%20proven-success.svg?logo=github)](https://github.com/AutomataNexus/NexusFoundry) -- Pure Rust zero-dependency compiler for Hailo NPU. Compiles ONNX / TFLite / AxonML models to HEF for Hailo-8, 8L, 10H. **Silicon-proven:** 2,667x faster than Hailo DFC. 32 models on H10 (40-4,454 FPS) + 28 models on H8 (7,000-84,000 FPS).
-- **NexusRT** [![NexusRT](https://img.shields.io/badge/NexusRT-direct%20ioctl-blue.svg?logo=github)](https://github.com/AutomataNexus/NexusRT) -- Zero-dependency Hailo NPU runtime. Direct ioctl to silicon, no libhailort.
 - **NexusSentinel** [![NexusSentinel](https://img.shields.io/badge/NexusSentinel-edge%20ML-14b8a6.svg?logo=github)](https://github.com/AutomataNexus/NexusSentinel) -- Facility health assessment. ~15K-param MLP autoencoder + severity classifier, SLSA Level 3.
 - **NexusWatch** [![NexusWatch](https://img.shields.io/badge/NexusWatch-vision-14b8a6.svg?logo=github)](https://github.com/AutomataNexus/NexusWatch) -- Edge computer vision. YOLOv8 + custom architectures on Hailo NPU.
 
