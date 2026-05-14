@@ -4,7 +4,8 @@
 
 # AutomataNexus
 
-**Pure-Rust infrastructure for industrial controls, edge ML, and the systems that run them.**
+**The $468 AI-powered HVAC controller that replaces $5,000 Trane/Siemens systems.**
+**60+ deployed. 16 facilities. Hailo NPU acceleration. Pure Rust, edge to cloud.**
 
 [![Rust](https://img.shields.io/badge/built%20with-Rust-orange.svg?logo=rust)](https://www.rust-lang.org)
 [![Projects](https://img.shields.io/badge/projects-50%2B-14b8a6.svg)](#product-families)
@@ -13,8 +14,27 @@
 [![Sites](https://img.shields.io/badge/sites-16%20production-2d2a26.svg)](#nexusedge--on-prem-hvac-controllers)
 [![SLSA Level 3](https://img.shields.io/badge/SLSA-Level%203-3f51b5.svg)](https://slsa.dev/spec/v1.0/levels#build-l3)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0005--2158--7060-A6CE39.svg?logo=orcid)](https://orcid.org/0009-0005-2158-7060)
+[![Website](https://img.shields.io/badge/web-automatanexus.com-14b8a6.svg)](https://automatanexus.com)
 
 </div>
+
+---
+
+### Featured In
+
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://www.influxdata.com/resources/influxdb-3-hackathon-winner-behind-the-scenes-of-nexus-bms-for-smart/"><strong>InfluxDB Hackathon Winner</strong></a><br><em>Behind the Scenes of Nexus BMS for Smart Buildings</em>
+</td>
+<td align="center" width="33%">
+<a href="https://hailo.ai/success-stories/automata-nexus/"><strong>Hailo AI Case Study</strong></a><br><em>AI-Enhanced Building Management with Hailo-8 NPU</em>
+</td>
+<td align="center" width="33%">
+<a href="https://dev.to/automatanexus/axonml-a-pytorch-equivalent-ml-framework-written-in-rust-328a"><strong>DEV Community</strong></a><br><em>AxonML: PyTorch-equivalent ML framework in Rust</em>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -176,9 +196,11 @@ Pure Rust compression framework. Format-aware lossless compression with derive m
 **ORCID** [`0009-0005-2158-7060`](https://orcid.org/0009-0005-2158-7060)
 Email: [`andrew.jewellsr@automatanexus.com`](mailto:andrew.jewellsr@automatanexus.com) | DevOps: [`devops@automatanexus.com`](mailto:devops@automatanexus.com)
 
-We hire HVAC technicians, controls engineers, Rust systems programmers, and ML researchers who like working at the intersection of physical systems and software. If that's you, send an email.
+We collaborate with HVAC technicians, controls engineers, Rust systems programmers, and ML researchers who like working at the intersection of physical systems and software. If that's you, send an email.
 
 For commercial licensing of any of our proprietary products, see the project's `COMMERCIAL.md`.
+
+For the **NexusEdge Community Edition** (open-source, Apache 2.0), see [NexusEdge-HailoCommunity](https://github.com/AutomataNexus/NexusEdge-HailoCommunity).
 
 ---
 
