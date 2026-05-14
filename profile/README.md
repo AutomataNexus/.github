@@ -15,6 +15,7 @@
 [![SLSA Level 3](https://img.shields.io/badge/SLSA-Level%203-3f51b5.svg)](https://slsa.dev/spec/v1.0/levels#build-l3)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0005--2158--7060-A6CE39.svg?logo=orcid)](https://orcid.org/0009-0005-2158-7060)
 [![Website](https://img.shields.io/badge/web-automatanexus.com-14b8a6.svg)](https://automatanexus.com)
+[![NexusEdge](https://img.shields.io/badge/NexusEdge-Hailo%20Community-00A8A8.svg)](https://nexusedgehailo.automatanexus.com)
 
 </div>
 
