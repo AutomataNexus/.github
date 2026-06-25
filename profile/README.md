@@ -9,10 +9,11 @@
 
 [![Rust](https://img.shields.io/badge/built%20with-Rust-orange.svg?logo=rust)](https://www.rust-lang.org)
 [![Projects](https://img.shields.io/badge/projects-50%2B-14b8a6.svg)](#product-families)
+[![Product Families](https://img.shields.io/badge/product%20families-8-14b8a6.svg)](#product-families)
 [![Edge](https://img.shields.io/badge/target-edge%20%26%20on--prem-14b8a6.svg)](#)
+[![SLSA Level 3](https://img.shields.io/badge/SLSA-Level%203-3f51b5.svg)](https://slsa.dev/spec/v1.0/levels#build-l3)
 [![Controllers](https://img.shields.io/badge/fleet-60%2B%20controllers-2d2a26.svg)](#nexusedge--on-prem-hvac-controllers)
 [![Sites](https://img.shields.io/badge/sites-16%20production-2d2a26.svg)](#nexusedge--on-prem-hvac-controllers)
-[![SLSA Level 3](https://img.shields.io/badge/SLSA-Level%203-3f51b5.svg)](https://slsa.dev/spec/v1.0/levels#build-l3)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0005--2158--7060-A6CE39.svg?logo=orcid)](https://orcid.org/0009-0005-2158-7060)
 [![Website](https://img.shields.io/badge/web-automatanexus.com-14b8a6.svg)](https://automatanexus.com)
 [![NexusEdge](https://img.shields.io/badge/NexusEdge-Hailo%20Community-00A8A8.svg)](https://nexusedgehailo.automatanexus.com)
