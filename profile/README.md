@@ -4,8 +4,8 @@
 
 # AutomataNexus
 
-**The $468 AI-powered HVAC controller that replaces $5,000 Trane/Siemens systems.**
-**60+ deployed. 16 facilities. Hailo NPU acceleration. Pure Rust, edge to cloud.**
+**AxonML · Aegis-DB · NexusShield — PyTorch-grade ML, a multi-paradigm DB, and zero-trust security, all in Rust.**
+**50+ projects across 8 product families, from edge controllers to multi-tenant SaaS.**
 
 [![Rust](https://img.shields.io/badge/built%20with-Rust-orange.svg?logo=rust)](https://www.rust-lang.org)
 [![Projects](https://img.shields.io/badge/projects-50%2B-14b8a6.svg)](#product-families)
