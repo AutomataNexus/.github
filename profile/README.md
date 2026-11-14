@@ -64,6 +64,17 @@ Rust controller firmware running on Raspberry Pi 5 with NVMe + Hailo-8/10H NPU a
 - **NexusConfigurator** -- Tauri 2 desktop app that commissions, configures, deploys, and monitors the controller fleet.
 - **NexusBMS** -- Fleet command bus + customer-facing dashboards for setpoints, schedules, and incident updates.
 
+### NexusKestrel -- Secure field controller and BAS supervisor
+
+[![NexusKestrel](https://img.shields.io/badge/NexusKestrel-field%20controller-14b8a6.svg?logo=github)](https://github.com/AutomataNexus/NexusKestrel-Releases)
+[![Rust](https://img.shields.io/badge/firmware-Rust%20no__std-orange.svg?logo=rust)](#)
+[![MCU](https://img.shields.io/badge/MCU-RP2350-c51a4a.svg?logo=raspberrypi)](#)
+[![Protocols](https://img.shields.io/badge/BACnet%20%7C%20Modbus-MS%2FTP%20%C2%B7%20IP%20%C2%B7%20RTU-14b8a6.svg)](#)
+[![Supervision](https://img.shields.io/badge/supervises-160%20devices%20%2F%204096%20pts-2d2a26.svg)](#)
+[![Secure Boot](https://img.shields.io/badge/secure%20boot-A%2FB%20signed%20OTA-success.svg)](#)
+
+A single-microcontroller controller that sits at the equipment or supervises a whole building. Pure Rust `no_std` on Embassy (RP2350). Runs 73 ported Talos control algorithms locally, supervises up to 160 field devices / 4,096 points over BACnet MS/TP, BACnet/IP and Modbus RTU (with legacy BAS protocols in site validation), presents everything as a BACnet device + Modbus slave, and carries per-unit fault models trained in AxonML. Secure boot, A/B signed OTA with automatic rollback, signed config bundles, TLS 1.3 uplink, every command confirmed by read-back. Built for taking over buildings whose old front end is dead. [Product page, licenses and releases.](https://github.com/AutomataNexus/NexusKestrel-Releases)
+
 ### Aegis-DB -- Multi-paradigm distributed database
 
 [![Aegis-DB](https://img.shields.io/github/stars/AutomataNexus/Aegis-DB?style=flat&logo=github&label=stars)](https://github.com/AutomataNexus/Aegis-DB)
