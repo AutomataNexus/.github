@@ -68,12 +68,12 @@ Rust controller firmware running on Raspberry Pi 5 with NVMe + Hailo-8/10H NPU a
 
 [![NexusKestrel](https://img.shields.io/badge/NexusKestrel-field%20controller-14b8a6.svg?logo=github)](https://github.com/AutomataNexus/NexusKestrel-Releases)
 [![Rust](https://img.shields.io/badge/firmware-Rust%20no__std-orange.svg?logo=rust)](#)
-[![MCU](https://img.shields.io/badge/MCU-RP2350-c51a4a.svg?logo=raspberrypi)](#)
+[![MCU](https://img.shields.io/badge/MCU-RP2350B%20Hazard3%20RISC--V-c51a4a.svg?logo=riscv)](#)
 [![Protocols](https://img.shields.io/badge/BACnet%20%7C%20Modbus-MS%2FTP%20%C2%B7%20IP%20%C2%B7%20RTU-14b8a6.svg)](#)
 [![Supervision](https://img.shields.io/badge/supervises-160%20devices%20%2F%204096%20pts-2d2a26.svg)](#)
 [![Secure Boot](https://img.shields.io/badge/secure%20boot-A%2FB%20signed%20OTA-success.svg)](#)
 
-A mini-JACE, protocol gateway and equipment controller on one microcontroller, pure Rust `no_std` on the RP2350, with no Rockwell or Tridium licensing. Supervises up to 160 devices / 4,096 points and speaks BACnet MS/TP and BACnet/IP, Modbus RTU, Allen-Bradley PLCs, Niagara AX/N4 (oBIX) and R2, Siemens APOGEE, Johnson Controls N2, LonWorks FT-10, Carrier CCN, Trane Comm4 and Staefa. Runs all 69 Talos equipment sequences (plus NexusFoundry custom logic) locally, carries a per-unit fault-detection model that scores its unit every 3 minutes on the processor, and refines that model on the device, used only after the server re-checks and signs it. Secure boot, signed OTA with automatic rollback, signed settings, outbound-only TLS 1.3, every command confirmed by read-back. [Product page, licenses and releases.](https://github.com/AutomataNexus/NexusKestrel-Releases)
+A mini-JACE, protocol gateway and equipment controller on one microcontroller, pure Rust `no_std` on the RP2350B's dual Hazard3 RISC-V cores, with no Rockwell or Tridium licensing. Supervises up to 160 devices / 4,096 points and speaks BACnet MS/TP and BACnet/IP, Modbus RTU, Allen-Bradley PLCs, Niagara AX/N4 (oBIX) and R2, Siemens APOGEE, Johnson Controls N2, LonWorks FT-10, Carrier CCN, Trane Comm4 and Staefa. Runs all 69 Talos equipment sequences (plus NexusFoundry custom logic) locally, carries its own 4-bit fault-detection model per unit (trained on that unit's own history, scores every 3 minutes and names the fault), and keeps learning on the device in leftover cycles; every adapted model is re-judged and signed by our server before it runs. NexusShield on board (hash-chained audit, write governor, bus threat scoring) and hardened firmware. Secure boot, signed OTA with automatic rollback, signed settings, outbound-only TLS 1.3, every command confirmed by read-back. [Product page, licenses and releases.](https://github.com/AutomataNexus/NexusKestrel-Releases)
 
 ### Aegis-DB -- Multi-paradigm distributed database
 
